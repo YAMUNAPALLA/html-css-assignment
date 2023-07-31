@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+  }
+  
+  .bottom-left-paragraph {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    margin: 0;
+  }
+  
+  .centered-paragraph {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+  }
+  
